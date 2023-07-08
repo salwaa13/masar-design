@@ -1,0 +1,58 @@
+
+/* Fonts */
+@font-face {
+  font-family: myFirstFont;
+  src: url(assets/fonts/Cairo-Regular.ttf);
+  
+  }
+:root {
+    --font-default:myFirstFont;
+  }
+  $mainfontRegular:fedra-R;
+  
+  /* Global Colors */
+  :root {
+    --color-default: #212529;
+    --color-default-rgb: 33, 37, 41;
+    --color-background: #ffffff;
+    --color-background-rgb: 255, 255, 255;
+    --color-primary: #29AFEC;
+    --color-primary-rgb: 41, 175, 236;
+    --color-secondary: #00003D;
+    --color-secondary-rgb: 50, 53, 58;
+    --color-line:#D7D7D7D4;
+    --color-head-txt:#035DA8;
+    --color-txt-dark:#949494;
+    --color-border:#D6D6D6;
+    --color-input-bk:#F3F3F3;
+    --color-cr:#E0E0E0;
+    
+  }
+  
+  /* Nav Menu Colors */
+  :root {
+    --color-nav: #3a3939;
+    --color-nav-hover: #e84545;
+    --color-nav-dropdown: #3a3939;
+    --color-nav-dropdown-hover: #29AFEC;
+    --color-nav-dropdown-background: #ffffff;
+    --color-nav-mobile-background: #ffffff;
+  }
+  
+  /* Smooth scroll */
+  :root {
+    scroll-behavior: smooth;
+  }
+
+  :root {
+
+--logo-size:140px;
+--font-size-text-v1:12px;
+--font-size-text-v2:14px;
+--font-size-text-v3:17px;
+--font-size-text-v4:24px;
+--fs-span-mob-v1:12px;
+--fs-h3-v1:1.2rem;
+--fs-h2-v1:1.3rem;
+--fs-label-v1:12px;
+  }

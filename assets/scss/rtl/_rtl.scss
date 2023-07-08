@@ -1,0 +1,44 @@
+* {
+direction: rtl;
+}
+.top-head .date_time {
+margin-right: unset;
+    margin-left: 20px;
+
+}
+.main-section .swiper-div .testimonial-item {
+
+    .description {
+        margin: 15px 0;
+        margin-right: 60px;
+        margin-left: unset;
+    }
+}
+a.provized_social_icon {
+    padding: 0px 12px 0px 25px;
+}
+.provized_social_float.reverse {
+  
+    right: -130px;
+    left: unset;
+    a.provized_social_icon {
+        padding: 0px 25px 0px 12px;
+        text-align: left;
+      
+      }
+    }
+    .provized_social_float {
+  
+        left: -100px;
+        right: unset;
+        }
+        .provized_social_float:hover {
+      
+            left: -15px;
+            right: unset;
+        }
+        .provized_social_float.reverse:hover  {
+  
+            right: -15px;
+            left: unset;
+            }
